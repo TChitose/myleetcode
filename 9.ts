@@ -31,7 +31,7 @@ var bestcode9 = function(x){
   if (x % 10 === 0) return false;　// １桁目が０ならFalse
 
   let rev = 0;
-  // 処理を回してrevをxの中央を作る。
+  // 処理を回してrevをxの中央から右側を作る。
   while (rev < x) {
     rev *= 10;
     rev += x%10;
