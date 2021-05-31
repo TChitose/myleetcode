@@ -1,4 +1,4 @@
-function test(nums = [2,3,5,6,9], target = 7) {
+function mycode35(nums = [2,3,5,6,9], target = 7) {
     if(nums.length === 1) return nums[0] < target ? 1 : 0;
     let i = Math.ceil(nums.length / 2);
     if(nums[i] === target) return i
